@@ -1,0 +1,1 @@
+import document from"document";import*as screenManager from"./screen.js";export function loadError(){document.getElementById("er-return").onclick=function(e){screenManager.showHome()}};

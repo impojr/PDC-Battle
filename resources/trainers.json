@@ -1,0 +1,131 @@
+[{
+		"id": 1,
+		"name": "Caterina",
+		"steps": 1000
+	},
+	{
+		"id": 2,
+		"name": "Antonio",
+		"steps": 1000
+	},
+ 	{
+		"id": 3,
+		"name": "Magnus",
+		"steps": 1250
+	},
+ 	{
+		"id": 4,
+		"name": "William",
+		"steps": 1250
+	},
+ 	{
+		"id": 5,
+		"name": "Chris",
+		"steps": 1500
+	},
+ 	{
+		"id": 6,
+		"name": "Emily",
+		"steps": 1500
+	},
+ 	{
+		"id": 7,
+		"name": "Mark",
+		"steps": 1750
+	},
+ 	{
+		"id": 8,
+		"name": "Matt",
+		"steps": 1750
+	},
+ 	{
+		"id": 9,
+		"name": "Elisa",
+		"steps": 2000
+	},
+ 	{
+		"id": 10,
+		"name": "Adrian",
+		"steps": 2250
+	},
+ 	{
+		"id": 11,
+		"name": "Noora",
+		"steps": 2500
+	},
+ 	{
+		"id": 12,
+		"name": "Isak",
+		"steps": 2500
+	},
+ 	{
+		"id": 13,
+		"name": "Oak",
+		"steps": 3250
+	},
+ 	{
+		"id": 14,
+		"name": "Brock",
+		"steps": 1500
+	},
+ 	{
+		"id": 15,
+		"name": "Misty",
+		"steps": 1750
+	},
+ 	{
+		"id": 16,
+		"name": "Lt. Surge",
+		"steps": 2000
+	},
+ 	{
+		"id": 17,
+		"name": "Erika",
+		"steps": 2250
+	},
+ 	{
+		"id": 18,
+		"name": "Koga",
+		"steps": 2500
+	},
+ 	{
+		"id": 19,
+		"name": "Sabrina",
+		"steps": 2500
+	},
+ 	{
+		"id": 20,
+		"name": "Blaine",
+		"steps": 2750
+	},
+ 	{
+		"id": 21,
+		"name": "Giovanni",
+		"steps": 3000
+	},
+ 	{
+		"id": 22,
+		"name": "Lorelei",
+		"steps": 3250
+	},
+ 	{
+		"id": 23,
+		"name": "Bruno",
+		"steps": 3250
+	},
+ 	{
+		"id": 24,
+		"name": "Agatha",
+		"steps": 3250
+	},
+ 	{
+		"id": 25,
+		"name": "Lance",
+		"steps": 3500
+	},
+ 	{
+		"id": 26,
+		"name": "Green",
+		"steps": 3750
+	}
+]

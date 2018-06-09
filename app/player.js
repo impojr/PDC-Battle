@@ -1,0 +1,1 @@
+export function CreatePlayer(e){var t=new Object;return t.name="male"==e?"Red":"Blue",t.wins=0,t.losses=0,t.defeatedGyms=[!1,!1,!1,!1,!1,!1,!1,!1],t.defeatedElites=[!1,!1,!1,!1,!1],t.highestSteps=0,t.leaderboardChecked=null,t.lastBattle={InBattle:!1,BattleStart:null,BattleEnd:null,OpponentIndex:100},t};

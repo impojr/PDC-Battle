@@ -1,0 +1,283 @@
+<svg>
+  <image href="Images/bg.png" width="100%" height="100%" />
+  <svg id="Home" class="holder">
+    <image id="h-player-image" href="images/trainers/Blue.png" x="7%" y="3%" width="43" height="43"/>
+    <image id="h-pokemon-image" href="images/trainers/Bluep.png" x="18%" y="6%" width="40" height="30"/>
+    <text id="h-player-name" class="header left" x="30%" y="17%">Green</text>
+    <line x1="0%" y1="17%" x2="100%" y2="17%" fill="white" stroke-width="1" />
+    
+    <textarea id="h-no-battle" x="5%" y="25%" width="100%-20"
+    font-family="System-Regular" fill="white" font-size="24">You are currently not in a battle.
+
+Select a trainer to battle from the menu.</textarea>
+    
+    <text id="h-inprogress" x="50%" y="40%">Battle In Progress</text>
+    <image id="h-bti" href="images/trainers/Blue.png" x="35%" y="45%" width="43" height="43"/>
+    <image id="h-bpi" href="images/trainers/Bluep.png" x="50%" y="48%" width="40" height="30"/>
+    <text id="h-btname" x="50%" y="70%">VS TName</text>
+    
+    <text id="h-remaining" x="50%" y="90%">30m 0s remaining</text>
+    
+    <svg width="80%" height="2%" x="10%" y="80%">
+      <use id="h-results" href="#square-button" y="5" fill="fb-green">
+        <set href="#text" attributeName="text-buffer" to="View Results" />
+      </use>
+    </svg>
+  </svg>
+  <svg id="Menu" class="holder">
+    <svg width="80%" height="2%" x="10%" y="10%">
+      <use id="m-btn-home" href="#square-button" y="5" fill="fb-green">
+        <set href="#text" attributeName="text-buffer" to="Home" />
+      </use>
+    </svg>
+    
+    <svg width="80%" height="2%" x="10%" y="35%">
+      <use id="m-btn-trainers" href="#square-button" y="5" fill="fb-green">
+        <set href="#text" attributeName="text-buffer" to="Trainers" />
+      </use>
+    </svg>
+    
+    <svg width="80%" height="2%" x="10%" y="60%">
+      <use id="m-btn-badges" href="#square-button" y="5" fill="fb-green">
+        <set href="#text" attributeName="text-buffer" to="Badges" />
+      </use>
+    </svg>
+  </svg>
+  <svg id="TrainerMenu" class="holder">
+    <svg width="80%" height="2%" x="10%" y="10%">
+      <use id="tm-btn-trainers" href="#square-button" y="5" fill="fb-green">
+        <set href="#text" attributeName="text-buffer" to="Trainers" />
+      </use>
+    </svg>
+    
+    <svg width="80%" height="2%" x="10%" y="35%">
+      <use id="tm-btn-leaders" href="#square-button" y="5" fill="fb-green">
+        <set href="#text" attributeName="text-buffer" to="Gym Leaders" />
+      </use>
+    </svg>
+    
+    <svg width="80%" height="2%" x="10%" y="60%">
+      <use id="tm-btn-elites" href="#square-button" y="5" fill="fb-green">
+        <set href="#text" attributeName="text-buffer" to="Elite Four" />
+      </use>
+    </svg>
+  </svg>
+  <svg id="BattleResults" class="holder">
+    <text class   ="header" x="50%" y="17%">Battle Results</text>
+    <line x1="0%" y1="17%" x2="100%" y2="17%" fill="white" stroke-width="1" />
+    
+    <image id="br-pwin" href="images/win.png" x="95%-28" y="32%" width="28" height="31"/>
+    <image id="br-pi" href="images/trainers/Blue.png" x="30%-43" y="28%" width="43" height="43"/>
+    <image id="br-ppi" href="images/trainers/Bluep.png" x="20%-40" y="32%" width="40" height="30"/>
+    <text id="br-pname" class="header left" x="33%" y="35%">Blue</text>
+    <text id="br-psteps" class="sub-heading left"x="33%" y="45%">6000 steps</text>
+    
+    <image id="br-twin" href="images/win.png" x="5%" y="62%" width="28" height="31"/>
+    <image id="br-ti" href="images/trainers/Blue.png" x="70%" y="58%" width="43" height="43"/>
+    <image id="br-tpi" href="images/trainers/Bluep.png" x="80%" y="61%" width="40" height="30"/>
+    <text id="br-tname" class="header right" x="67%" y="65%">Green</text>
+    <text id="br-tsteps" class="sub-heading right"x="67%" y="75%">6000 steps</text>
+    
+    <svg width="80%" height="2%" x="10%" y="80%">
+      <use id="br-home" href="#square-button" y="5" fill="fb-green">
+        <set href="#text" attributeName="text-buffer" to="Okay" />
+      </use>
+    </svg>
+  </svg>
+  <svg id="Trainers" class="holder">
+    <use id="trainer-list" href="#tile-list">
+      <var id="reorder-enabled" value="0" />
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+    </use>
+  </svg>
+  <svg id="Leaders" class="holder">
+    <use id="trainer-list" href="#tile-list">
+      <var id="reorder-enabled" value="0" />
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+    </use>
+  </svg>
+  <svg id="Elite" class="holder">
+    <use id="trainer-list" href="#tile-list">
+      <var id="reorder-enabled" value="0" />
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+      <use href="#tile-list-item" class="tile-list-item" pointer-events="all">
+        <image id="tImage" href="images/trainers/1.png" x="11" y="10" width="43" height="43"/>
+        <image id="pImage" href="images/trainers/1p.png" x="50" y="16" width="40" height="30"/>
+        <text id="tName" class="left" x="90" y="45">Name</text>
+      </use>
+    </use>
+  </svg>
+  <svg id="NpcDetails" class="holder">
+     <image id="npc-player-image" href="images/trainers/Blue.png" x="7%" y="3%" width="43" height="43"/>
+    <image id="npc-pokemon-image" href="images/trainers/Bluep.png" x="18%" y="6%" width="40" height="30"/>
+    <text id="npc-player-name" class="header left" x="30%" y="17%">Green</text>
+    <line x1="0%" y1="17%" x2="100%" y2="17%" fill="white" stroke-width="1" />
+    
+    <text id="npc-class" class="left sub-heading" x="20" y="30%">Pokemon Trainer</text>
+    <image href="images/rank.png" x="20" y="35%" width="260" height="16" />
+    <image id="npc-pointer" href="images/point.png" x="20" y="120" width="10" height="10" />
+    
+    <text id="npc-steps" class="left paragraph" x="20" y="52%">Average Steps: XXXXX</text>
+    <text id="npc-wins" class="left paragraph" x="20" y="62%">Wins: XXX</text>
+    <text id="npc-losses" class="left paragraph" x="20" y="72%">Losses: XXX</text>
+    
+    <image id="npc-champ" href="images/badges/champ.png" x="75%" y="55%" width="52" height="54" />
+    <image id="npc-badge" href="images/badges/1.png" x="80%" y="60%" width="24" height="24" />
+    
+    <svg width="80%" height="2%" x="10%" y="80%">
+      <use id="npc-btn-battle" href="#square-button" y="5" fill="fb-green">
+        <set href="#text" attributeName="text-buffer" to="Battle" />
+      </use>
+    </svg>
+  </svg>
+  <svg id="Badges" class="holder">
+    <image class="npc-badges" href="images/badges/1.png" x="25" y="10%" width="24" height="24" />
+    <image class="npc-badges" href="images/badges/1.png" x="100" y="10%" width="24" height="24" />
+    <image class="npc-badges" href="images/badges/1.png" x="175" y="10%" width="24" height="24" />
+    <image class="npc-badges" href="images/badges/1.png" x="250" y="10%" width="24" height="24" />
+    <image class="npc-badges" href="images/badges/1.png" x="25" y="20%" width="24" height="24" />
+    <image class="npc-badges" href="images/badges/1.png" x="100" y="20%" width="24" height="24" />
+    <image class="npc-badges" href="images/badges/1.png" x="175" y="20%" width="24" height="24" />
+    <image class="npc-badges" href="images/badges/1.png" x="250" y="20%" width="24" height="24" />
+    
+    <image id="bdg-champ" href="images/badges/champ.png" x="50%-26" y="40%" width="52" height="54" />
+    
+    <text id="bdg-wins" x="20" y="72%" class="sub-heading left">Wins: 0</text>
+    <text id="bdg-losses" x="20" y="82%" class="sub-heading left">Losses: 0</text>
+    <text id="bdg-steps" x="20" y="92%" class="sub-heading left">Highest Steps: 0000</text>
+  </svg>
+  <svg id="Error" class="holder">
+    <text class="header left" x="5%" y="17%">Please reconnect.</text>
+    <textarea x="5%" y="25%" width="100%-20"
+    font-family="System-Regular" fill="white" font-size="24">Please reconnect to the companion via the fitbit app.</textarea>
+     <svg width="80%" height="10%" x="10%" y="80%">
+      <use id="er-return" href="#square-button" y="5" fill="fb-white">
+        <set href="#text" attributeName="text-buffer" to="Okay" />
+      </use>
+    </svg>
+  </svg>
+  
+  <use id="spinner" href="#spinner" />
+</svg>

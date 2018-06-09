@@ -1,0 +1,21 @@
+{
+  "fitbit": {
+    "appUUID": "71b1273d-735c-4b63-b246-1650ce59fe8c",
+    "appType": "app",
+    "appDisplayName": "PDC Battle",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_user_profile",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "PDC Battle"
+      }
+    }
+  }
+}

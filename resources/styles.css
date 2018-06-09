@@ -1,0 +1,52 @@
+text {
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+}
+
+.header {
+  font-family: System-Regular;
+  font-size: 35;
+}
+
+.trainer-name {
+  font-family: System-Light;
+  font-size: 35;
+}
+
+.sub-heading {
+  font-family: System-Light;
+  font-size: 30;
+}
+
+.paragraph {
+  font-family: System-Light;
+  font-size: 25;
+}
+
+.left {
+  text-anchor: start;
+}
+
+.right {
+  text-anchor: end;
+}
+
+.tile-list-item {
+  height: 65;
+}
+
+.tile-list-item text {
+  font-family: System-Regular;
+  fill: "white";
+}
+
+.tile-divider-bottom {
+  x: 0;
+  y: 100%-2;
+  width: 100%;
+  height: 2;
+  fill: #A0A0A0;
+}
+
+#spinner { x: 50%-25; y: 50%-25; width: 50; height: 50; fill: fb-white; }
